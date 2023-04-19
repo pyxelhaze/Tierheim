@@ -44,23 +44,72 @@ img {
   max-height: 100%;
   display: block; /* remove extra space below image */
 }
-.infotext {
+.img2 {
+  border-radius: 5px;
+}
+.video {
+  border-radius: 10px;
+  border: 3px #000000;
+}
+.video1 {
+  padding: 25px;
+  padding-right: 70px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#infoblock {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.infotext1 {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
   padding: 25px;
   background-color: rgb(255, 255, 255);
 }
-.dogs {
+.infotext2 {
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+}
+#dogs {
   padding: 25px;
   color: #ffffff;
   background-color: darkslategray;
 }
-.dogs_galerie {
-  display: flex;
+#cats {
   padding: 25px;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
 }
-.dogs_galerie {
-  width: 250px;
-  height: 250px;
+#smalls {
+  padding: 25px;
+  color: #ffffff;
+  background-color: darkslategray;
 }
-.husky .dackel .mini .lassy .spitz {
-  height: 750px;
+.dogs_galerie,
+.cat_galerie,
+.small_galerie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.dog_pic {
+  padding: 25px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.cat_pic {
+  padding: 25px;
+  height: 500px;
+}
+.small_pic {
+  padding: 25px;
+  height: 405px;
+}
+.text1 {
+  padding-top: 10px;
+  padding-left: 5px;
 }
