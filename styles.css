@@ -113,10 +113,12 @@ img {
   height: 500px;
 }
 .cat_pic {
+  position: relative;
   padding: 25px;
   height: 500px;
 }
 .small_pic {
+  position: relative;
   padding: 25px;
   height: 405px;
 }
@@ -135,14 +137,22 @@ img {
   border-radius: 10px;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #ffffff;
+  background-color: #000000;
 }
+
 .overlay-text {
   display: flex;
   flex-wrap: wrap;
-  color: #000000;
-  padding: 30px;
+  color: #ffffff;
+  padding: 40px;
 }
 .dog_pic:hover .overlay {
+  height: 100%;
+  opacity: 0.75;
+}
+.cat_pic:hover .overlay {
+  opacity: 0.75;
+}
+.small_pic:hover .overlay {
   opacity: 0.75;
 }
