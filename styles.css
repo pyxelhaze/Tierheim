@@ -46,7 +46,7 @@ a {
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 30px;
-  padding: 5px;
+  padding: 12px;
 }
 a:hover {
   color: rgb(208, 209, 172);
@@ -77,16 +77,26 @@ img {
   padding: 25px;
 }
 .infotext1 {
+  color: darkslategray;
   display: flex;
   flex-direction: column;
   width: 1000px;
   padding: 25px;
   background-color: rgb(255, 255, 255);
 }
-.infotext2 {
-  padding: 125px;
+#bottominfo {
+  color: darkslategray;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
   background-color: rgb(255, 255, 255);
-  width: 500px;
+}
+.infotext2 {
+  width: 425px;
+}
+.kontakt {
+  padding-left: 75px;
 }
 #dogs,
 #smalls {
@@ -96,7 +106,7 @@ img {
 }
 #cats {
   padding: 35px;
-  color: #000000;
+  color: darkslategray;
   background-color: rgb(255, 255, 255);
 }
 
@@ -155,4 +165,12 @@ img {
 }
 .small_pic:hover .overlay {
   opacity: 0.75;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  height: 50px;
+  background-color: darkslategray;
 }
