@@ -134,9 +134,13 @@ img {
   border-radius: 10px;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #222324;
+  background-color: #313233;
 }
 .overlay-text {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  padding: 30px;
 }
 .dog_pic:hover .overlay {
   opacity: 0.75;
