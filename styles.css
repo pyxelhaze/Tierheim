@@ -130,16 +130,17 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 500px;
+  height: 100%;
+  width: 100%;
   border-radius: 10px;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #313233;
+  background-color: #ffffff;
 }
 .overlay-text {
   display: flex;
   flex-wrap: wrap;
-  color: #ffffff;
+  color: #000000;
   padding: 30px;
 }
 .dog_pic:hover .overlay {
