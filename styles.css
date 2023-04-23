@@ -86,24 +86,7 @@ img {
   padding: 25px;
   background-color: rgb(255, 255, 255);
 }
-#bottominfo {
-  color: darkslategray;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: rgb(255, 255, 255);
-}
-.googlemap {
-  border-radius: 10px;
 
-  border-color: darkslategray;
-}
-.infotext2 {
-  width: 425px;
-}
 .kontakt {
   padding-left: 75px;
 }
@@ -125,6 +108,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-bottom: 35px;
 }
 .dog_pic {
   position: relative;
@@ -175,6 +159,24 @@ img {
 }
 .small_pic:hover .overlay {
   opacity: 0.75;
+}
+#bottominfo {
+  color: darkslategray;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+.googlemap {
+  border-radius: 10px;
+
+  border-color: darkslategray;
+}
+.infotext2 {
+  width: 425px;
 }
 .footer {
   display: flex;
