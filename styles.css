@@ -41,15 +41,29 @@ h2 {
   padding-right: 35px;
 }
 
-a {
+a.one:link {
   color: #ffffff;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 30px;
   padding: 10px;
 }
-a:hover {
+a.one:visited {
+  color: rgb(255, 255, 255);
+}
+a.one:hover {
   color: rgb(208, 209, 172);
+}
+
+a.two:link {
+  color: rgb(0, 109, 36);
+  text-decoration: none;
+}
+a.two:visited {
+  color: darkslateblue;
+}
+a.two:hover {
+  color: black;
 }
 
 img {
