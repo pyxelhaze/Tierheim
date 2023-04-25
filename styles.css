@@ -16,6 +16,7 @@ video {
 .header1 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 15px;
   padding-top: 75px;
   padding-left: 50px;
@@ -35,9 +36,9 @@ video {
   flex-wrap: wrap;
   max-width: 300px;
 }
-.links {
+.nav {
   float: right;
-  padding-right: 35px;
+  padding-right: 40px;
 }
 
 a.one:link {
@@ -182,6 +183,7 @@ img {
   padding-bottom: 50px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
   max-width: 100%;
