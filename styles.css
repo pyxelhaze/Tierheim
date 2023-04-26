@@ -11,11 +11,14 @@ h2 {
   font-family: "Dancing Script", cursive;
 }
 h3 {
-  font-size: 40px;
-  font-family: "Dancing Script", cursive;
+  font-size: 22px;
 }
 h4 {
   font-size: 18px;
+}
+h5 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
 }
 video {
   max-width: 100%;
@@ -46,6 +49,7 @@ video {
 .nav1 {
   float: right;
   padding-right: 40px;
+  max-width: 100%;
 }
 
 a.one:link {
