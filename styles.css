@@ -10,6 +10,13 @@ h2 {
   font-size: 50px;
   font-family: "Dancing Script", cursive;
 }
+h3 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+h4 {
+  font-size: 18px;
+}
 video {
   max-width: 100%;
 }
@@ -36,7 +43,7 @@ video {
   flex-wrap: wrap;
   max-width: 300px;
 }
-.nav {
+.nav1 {
   float: right;
   padding-right: 40px;
 }
@@ -101,7 +108,7 @@ img {
   background-color: rgb(255, 255, 255);
 }
 
-.kontakt {
+.adress {
   padding-left: 75px;
 }
 #dogs,
@@ -183,7 +190,7 @@ img {
   padding-bottom: 50px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
   max-width: 100%;
@@ -204,4 +211,21 @@ img {
   color: #ffffff;
   height: 50px;
   background-color: darkslategray;
+}
+/* Kontaktformular*/
+.container {
+}
+.form {
+}
+
+#name,
+#email {
+  width: 250px;
+  height: 25px;
+}
+#message {
+  width: 450px;
+  height: 250px;
+}
+.button {
 }

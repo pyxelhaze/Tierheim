@@ -42,7 +42,7 @@
           ipsum dolor sit amet.
         </div>
       </div>
-      <div class="nav">
+      <div class="nav1">
         <ul>
           <a class="one" href="#infoblock">Unser Tierheim</a>
           <a class="one" href="#dogs">Hunde</a>
@@ -370,23 +370,40 @@
       </div>
       <br /><br />
       <div id="bottominfo">
-        <div class="infotext2">
-          <h2>Impressum</h2>
-          <br />
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus.<br />
-          <br />
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum.<br /><br />
-          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-          dolor sit amet.
+        <div class="container">
+          <h3>Nimm Kontakt auf !</h3>
+          <br /><br />
+          <div class="form">
+            <form action="/action_page.php">
+              <div class="box">
+                <label for="name">Dein Name:</label><br />
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Dein Name"
+                /><br /><br />
+              </div>
+              <div class="box">
+                <label for="email">Deine email-Adresse:</label><br />
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Deine email"
+                /><br /><br />
+              </div>
+              <div class="message">
+                <label for="message">Deine Nachricht:</label><br />
+                <input type="text" id="message" name="email" /><br /><br />
+              </div>
+              <div class="button">
+                <input type="submit" value="Ab die Post!" />
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="kontakt">
-          <h2>Kontakt</h2>
-          <br />
+        <div class="adress">
+          <h3>Hier findest Du uns !</h3>
+          <br /><br /><br /><br />
           <h4>Tollstes Tierheim der Welt</h4>
           <br />
           Mopsweg 12<br />
@@ -400,7 +417,6 @@
           >
             email:majestaetischermops@awesome.de </a
           ><br /><br />
-          <a class="two" href="xyz" target="_blank"> Kontaktformular </a>
         </div>
         <div class="map">
           <iframe
