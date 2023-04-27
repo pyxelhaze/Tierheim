@@ -60,7 +60,7 @@ h3 {
 }
 @media screen and (max-width: 600px) {
   h4 {
-    font-size: 12px;
+    font-size: 0px;
   }
 }
 h5 {
@@ -85,11 +85,9 @@ video {
 }
 @media screen and (max-width: 600px) {
   .header1 {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding: 1em;
-    padding-top: 1.5em;
+    padding-top: 0.5em;
     padding-left: 0.5em;
     position: absolute;
     width: 100%;
@@ -124,10 +122,10 @@ video {
 @media screen and (max-width: 600px) {
   .header3 {
     display: flex;
-
     flex-wrap: wrap;
     font-size: 10px;
     max-width: 300px;
+    font-size: 0px;
   }
 }
 @media screen and (min-width: 601px) {
@@ -139,7 +137,7 @@ video {
 }
 @media screen and (max-width: 600px) {
   .nav1 {
-    padding-left: 10px;
+    float: right;
     max-width: 100%;
   }
 }
@@ -155,6 +153,8 @@ video {
 }
 @media screen and (max-width: 600px) {
   a.one:link {
+    display: flex;
+    text-align: end;
     color: #ffffff;
     text-decoration: none;
     font-family: "Dancing Script", cursive;
@@ -189,15 +189,16 @@ img {
   max-width: 100%;
   border-radius: 5px;
 }
-.video {
-  border-radius: 10px;
-}
 .video1 {
   padding: 25px;
   padding-right: 70px;
   overflow: hidden;
   border-radius: 10px;
 }
+.video2 {
+  border-radius: 10px;
+}
+
 #infoblock {
   display: flex;
   justify-content: space-between;
@@ -224,7 +225,7 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 1000px;
-    padding: 3px;
+    padding: 7px;
     background-color: rgb(255, 255, 255);
   }
 }
