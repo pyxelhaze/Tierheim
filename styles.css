@@ -68,7 +68,7 @@ video {
   max-width: 100%;
 }
 @media screen and (min-width: 821px) {
-  .header1 {
+  .header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -100,7 +100,7 @@ video {
   .header3 {
     display: flex;
     flex-wrap: wrap;
-    font-size: 18px;
+    font-size: 16px;
     max-width: 300px;
   }
 }
@@ -379,6 +379,7 @@ img {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
+    padding-top: 35px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -509,4 +510,84 @@ a.three:hover {
 .creator {
   padding-bottom: 8px;
   font-size: 11px;
+}
+
+/*Einzelseiten*/
+
+.header_extra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.group_extra {
+  color: darkslategray;
+  padding: 15px;
+  padding-left: 55px;
+}
+.nav_extra {
+  padding-right: 35px;
+}
+a.five:link {
+  color: darkslategray;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+a.five:visited {
+  color: darkslategray;
+}
+a.five:hover {
+  color: rgb(140, 145, 12);
+}
+#dogs_extra,
+#smalls_extra,
+#cats_extra {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #ffffff;
+  background-color: darkslategray;
+}
+.dogs_galerie_extra,
+.cat_galerie_extra,
+.small_galerie_extra {
+  padding-bottom: 15px;
+  max-width: 100%;
+}
+.dog_pic_extra {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 25px;
+}
+.small_pic_extra {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 25px;
+}
+.img2_extra {
+  max-width: 100%;
+  border-radius: 5px;
+  width: 350px;
+}
+.img3_extra {
+  max-width: 100%;
+  border-radius: 5px;
+  width: 550px;
+}
+.animalinfo {
+  padding-left: 35px;
+}
+.whiteblock {
+  height: 2px;
+  max-width: 100%;
+
+  background-color: #ffffff;
 }
