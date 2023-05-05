@@ -45,7 +45,16 @@ example for responsivness
     font-family: "Dancing Script", cursive;
   }
 }
-
+@media screen and (min-width: 821px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 820px) {
+  h4 {
+    font-size: 0px;
+  }
+}
 h3 {
   font-size: 35px;
   font-family: "Dancing Script", cursive;
@@ -58,6 +67,18 @@ h3 {
 @media screen and (max-width: 820px) {
   h4 {
     font-size: 0px;
+  }
+}
+@media screen and (min-width: 821px) {
+  .name1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 820px) {
+  .name1 {
+    font-size: 15px;
+    font-weight: bold;
   }
 }
 h5 {
@@ -81,7 +102,7 @@ video {
   }
 }
 @media screen and (max-width: 820px) {
-  .header1 {
+  .header {
     padding: 1em;
     padding-top: 0.5em;
     padding-left: 0.5em;
@@ -163,6 +184,15 @@ a.two:link {
 a.two:hover {
   color: black;
 }
+a.four {
+  color: darkslategrey;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+a.four:hover {
+  color: rgb(208, 209, 172);
+}
 
 img {
   max-width: 100%;
@@ -174,14 +204,25 @@ img {
   max-width: 100%;
   border-radius: 5px;
 }
-.video1 {
-  padding: 25px;
-  padding-right: 70px;
-  overflow: hidden;
-  border-radius: 10px;
+
+@media screen and (min-width: 821px) {
+  .video1 {
+    padding: 25px;
+    padding-right: 70px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .video1 {
+    padding: 5px;
+  }
 }
 .video2 {
   border-radius: 10px;
+}
+iframe {
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  max-width: 100%;
 }
 
 #infoblock {
@@ -425,7 +466,8 @@ img {
 @media screen and (max-width: 600px) {
   .adress {
     padding-left: 25px;
-    padding-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 10px;
   }
 }
@@ -512,82 +554,167 @@ a.three:hover {
   font-size: 11px;
 }
 
-/*Einzelseiten*/
+/*Unterseiten*/
 
-.header_extra {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-.group_extra {
-  color: darkslategray;
-  padding: 15px;
-  padding-left: 55px;
-}
-.nav_extra {
-  padding-right: 35px;
-}
-a.five:link {
-  color: darkslategray;
-  text-decoration: none;
-  font-family: "Dancing Script", cursive;
-  font-size: 24px;
-  font-weight: bold;
-  padding: 10px;
-}
-a.five:visited {
-  color: darkslategray;
-}
-a.five:hover {
-  color: rgb(140, 145, 12);
-}
-#dogs_extra,
-#smalls_extra,
-#cats_extra {
-  display: flex;
-  flex-direction: column;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  color: #ffffff;
-  background-color: darkslategray;
-}
-.dogs_galerie_extra,
-.cat_galerie_extra,
-.small_galerie_extra {
-  padding-bottom: 15px;
-  max-width: 100%;
-}
-.dog_pic_extra {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  padding: 25px;
-}
-.small_pic_extra {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  padding: 25px;
-}
-.img2_extra {
-  max-width: 100%;
-  border-radius: 5px;
-  width: 350px;
-}
-.img3_extra {
-  max-width: 100%;
-  border-radius: 5px;
-  width: 550px;
-}
-.animalinfo {
-  padding-left: 35px;
-}
-.whiteblock {
-  height: 2px;
-  max-width: 100%;
+@media screen and (min-width: 601px) {
+  .header_extra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .group_extra {
+    color: darkslategray;
+    padding: 15px;
+    padding-left: 55px;
+  }
+  .nav_extra {
+    padding-right: 35px;
+  }
+  a.five:link {
+    color: darkslategray;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  a.five:visited {
+    color: darkslategray;
+  }
+  a.five:hover {
+    color: rgb(140, 145, 12);
+  }
+  #dogs_extra,
+  #smalls_extra,
+  #cats_extra {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #ffffff;
+    background-color: darkslategray;
+  }
+  .dogs_galerie_extra,
+  .cat_galerie_extra,
+  .small_galerie_extra {
+    padding-bottom: 15px;
+    max-width: 100%;
+  }
+  .dog_pic_extra {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 25px;
+  }
+  .small_pic_extra {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 25px;
+  }
+  .img2_extra {
+    max-width: 100%;
+    border-radius: 5px;
+    width: 350px;
+  }
+  .img3_extra {
+    max-width: 100%;
+    border-radius: 5px;
+    width: 550px;
+  }
+  .animalinfo {
+    padding-left: 35px;
+  }
+  .whiteblock {
+    height: 2px;
+    max-width: 100%;
 
-  background-color: #ffffff;
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header_extra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .group_extra {
+    color: darkslategray;
+    padding: 15px;
+    padding-left: 15px;
+  }
+  .nav_extra {
+    padding-right: 5px;
+  }
+  a.five:link {
+    color: darkslategray;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  a.five:visited {
+    color: darkslategray;
+  }
+  a.five:hover {
+    color: rgb(140, 145, 12);
+  }
+  #dogs_extra,
+  #smalls_extra,
+  #cats_extra {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #ffffff;
+    background-color: darkslategray;
+  }
+  .dogs_galerie_extra,
+  .cat_galerie_extra,
+  .small_galerie_extra {
+    padding-bottom: 15px;
+    max-width: 100%;
+  }
+  .dog_pic_extra {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+  .small_pic_extra {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+  .img2_extra {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 450px;
+  }
+  .img3_extra {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 250px;
+  }
+  .animalinfo {
+    padding-top: 15px;
+    padding-left: 5px;
+  }
+  .whiteblock {
+    height: 2px;
+    max-width: 100%;
+
+    background-color: #ffffff;
+  }
 }
